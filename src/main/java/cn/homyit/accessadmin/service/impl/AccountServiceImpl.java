@@ -39,6 +39,7 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, Account> impl
             loginDTO.setError("密码错误");
             return loginDTO;
         }
+
         loginDTO.setPath("login/main");
         loginDTO.setAccount(account);
         return loginDTO;

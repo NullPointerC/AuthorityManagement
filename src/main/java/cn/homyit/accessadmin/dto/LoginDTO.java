@@ -24,4 +24,5 @@ public class LoginDTO {
      * 当前登录人的信息
      */
     private Account account;
+    
 }
